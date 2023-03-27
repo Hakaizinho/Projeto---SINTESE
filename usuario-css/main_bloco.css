@@ -1,0 +1,43 @@
+.container_bloco{
+    background: rgb(91, 209, 170);
+}
+
+.container_bloco_top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bloco_text {
+    margin-left: 8vh;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.bloco_text h3 {
+    padding-top: 2vh ;
+}
+
+.bloco {
+   margin-top: 3vh;
+   margin-bottom: 2vh;
+   margin-left: 2vh;
+   margin-right: 2vh;
+   transition: transform 0.2s ease-in-out;
+   
+}
+
+.bloco img {
+    width: 150px;
+    height: 180px;
+}
+
+.bloco p {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.bloco:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}

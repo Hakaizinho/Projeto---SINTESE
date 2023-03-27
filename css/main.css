@@ -1,0 +1,48 @@
+
+.container {
+    display: flex;
+    height: 90vh;
+}
+
+.imagens_container, .login_container {
+    flex: 1;
+}
+
+.imagens_container {
+    
+    background-image:url("../Imagens/teemu-paananen-OOE4xAnBhKo-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.imagens_container .pai_container{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 40vh;
+}
+
+.icone {
+    display: flex;
+    width: 15%;
+}
+
+.pai_container .icone_imagem {
+    flex-basis: 50px;
+    width: 100%;
+}
+
+.text_container{
+    display: flex;
+    font-size: 60px;
+    font-family: Orbitron;
+    text-shadow:
+    -1px -1px 0 #6d6fe7,
+    2px -1px 0 #6d6fe7,
+    -1px  1px 0 #6d6fe7,
+    2px  1px 0 #6d6fe7;
+    color: white;
+    font-weight: 600;
+
+}

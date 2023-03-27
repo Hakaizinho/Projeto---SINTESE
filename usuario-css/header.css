@@ -1,0 +1,79 @@
+.container_header {
+  background: rgb(91, 209, 170);
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: space-between;
+}
+
+.logo_img {
+  display: flex;
+  align-items: center;
+  width: 40vh;
+}
+
+.logo_text {
+  display: flex;
+  font-weight: 600;
+  line-height: 28px;
+  font-family: risque;
+  font-size: 18px;
+}
+
+.logo {
+  display: flex;
+  width: 10vh;
+  margin-left: 5vh;
+}
+
+.list {
+  display: flex;
+  
+}
+
+.list_itens {
+  margin-left: 2vh;
+  margin-right: 1vh;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.user_search {
+  display: flex;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.caixa_pesquisa {
+  height: 30px;
+  width: 240px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+
+
+
+.user-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  font-size: 40px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.user-menu:hover .dropdown-menu {
+  display: block;
+}

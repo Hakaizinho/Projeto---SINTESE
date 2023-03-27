@@ -1,0 +1,82 @@
+.categoria_box {
+    
+
+}
+
+.categoria_text {
+    font-family: Risque;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.boxs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 4vh 4vh 4vh 4vh;
+}
+
+.boxs a {
+    display: flex;
+    justify-content: space-around ;
+    
+}
+
+.boxs li {
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    
+}
+.boxs p {
+    font-size: 20px;
+    font-family: Risque;
+    font-weight: 600;
+    margin-top: 1.5vh;
+}
+
+.boxs img {
+    width: 50px;
+    right: 50px;
+}
+
+
+.box_frut {
+    background: red;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.box_infestantes {
+    background: rgb(16, 218, 83);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.box_florestais {
+    background: violet;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.box_medicinais {
+    background: wheat;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.box_hortaliças {
+    background: greenyellow;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.box_ornamentais {
+    background: rebeccapurple;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}

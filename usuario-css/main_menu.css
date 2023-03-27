@@ -1,0 +1,25 @@
+..container_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    background: rgb(91, 209, 170);
+    align-items: center;
+    margin: 5vh 25vh 5vh 25vh;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.topico {
+    margin: 2vh 4vh 2vh 4vh;
+    font-family: Roboto;
+    font-weight: 500;
+    transition: transform 0.2s ease-in-out;
+}
+
+.topico:hover {
+    transform: scale(1.1);
+}
